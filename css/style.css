@@ -191,6 +191,7 @@ a:focus {
 
 .shop_section .box .img-box img {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .shop_section .box .btn-box {
@@ -219,6 +220,7 @@ a:focus {
   width: 100%;
   -webkit-transform: translateX(45px);
           transform: translateX(45px);
+          border-radius: 10px;
 }
 
 .about_section .detail-box {
@@ -311,6 +313,7 @@ a:focus {
 
 .product_section .product_container .box img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .product_section .product_container .box .link_box {
@@ -406,6 +409,7 @@ a:focus {
 
 .client_section .client_container .img-box img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .client_section .client_container .detail-box {
@@ -425,10 +429,12 @@ a:focus {
 .client_section .client_container .detail-box p img {
   width: 25px;
   margin: 3px 10px;
+  border-radius: 10px;
 }
 
 .client_section .client_container .detail-box img {
   width: 60px;
+  border-radius: 10px;
 }
 
 .client_section .carousel-control-prev,
