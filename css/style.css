@@ -56,9 +56,10 @@ body {
 }
 
 .brand_box .navbar-brand span {
-  font-size: 34px;
+  font-size: 20px;
   font-weight: bold;
   color: #ffffff;
+  background-color: #2e2e2e;
   text-transform: uppercase;
 }
 
@@ -563,7 +564,7 @@ a:focus {
 }
 
 .map_container {
-  height: 350px;
+  height: 100%;
 }
 
 .map_container .map-responsive {
