@@ -14,3 +14,10 @@ function openNav() {
         .querySelector(".custom_menu-btn")
         .classList.toggle("menu_btn-style");
 }
+
+function menuToggle(){
+    const toggleMenu = document.querySelector('.toggleMenu');
+    const navigation = document.querySelector('.navigation');
+    toggleMenu.classList.toggle('active')
+    navigation.classList.toggle('active')
+  }
