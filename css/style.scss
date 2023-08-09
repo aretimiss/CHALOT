@@ -136,10 +136,6 @@ a:focus {
     margin: auto;
 }
 
-/*end header section*/
-
-/* slider section */
-
 .slider_section {
     div#carouselExampleControls {
         overflow: hidden;
@@ -182,10 +178,6 @@ a:focus {
     }
 }
 
-/* end slider section */
-
-// nav section
-
 .nav_section {
     margin-top: -32px;
 
@@ -223,10 +215,6 @@ a:focus {
     }
 }
 
-// end nav section
-
-// shop section
-
 .shop_section {
     .box {
         display: flex;
@@ -262,9 +250,6 @@ a:focus {
     }
 }
 
-// end shop section
-
-// about section
 .about_section {
     .img-box {
         padding: 35px 0;
@@ -305,10 +290,6 @@ a:focus {
         }
     }
 }
-
-// end about section
-
-// product section
 
 .product_section {
     .heading_container {
@@ -390,9 +371,6 @@ a:focus {
     }
 }
 
-// end product section
-
-// client section
 .client_section {
     .heading_container {
         display: flex;
@@ -408,7 +386,7 @@ a:focus {
             background-color: #b7b7b7;
         }
 
-        // margin-bottom: 35px;
+      
     }
 
     .client_container {
@@ -480,9 +458,6 @@ a:focus {
     }
 }
 
-// end client section
-
-/* contact section */
 
 .contact_section {
     position: relative;
@@ -554,9 +529,6 @@ a:focus {
     }
 }
 
-/* contact section */
-
-/* info section */
 .info_section {
     background-color: #2e2e2e;
     color: $white;
@@ -645,9 +617,6 @@ a:focus {
     }
 }
 
-/* end info section */
-
-/* footer section*/
 
 .footer_section {
     background-color: $white;
@@ -663,5 +632,3 @@ a:focus {
 .footer_section a {
     color: #222222;
 }
-
-/* end footer section*/
