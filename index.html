@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
 
     <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="css/slide.css">
     <title>Milk Tea CHALOT</title>
 </head>
 
@@ -41,6 +41,29 @@
             </div>
         </nav>
     </header>
+
+    <div class="slider">
+		<div class="myslide fade">
+			<img src="img/benner-facebook.png" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<img src="img/banner6.png" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<img src="img/banner7.png" style="width: 100%; height: 100%;">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	</div>
 
     <main class="l-main">
 
@@ -226,7 +249,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="js/main.js"></script>
-
+    <script src="js/slide.js"></script>
 
 </body>
 
