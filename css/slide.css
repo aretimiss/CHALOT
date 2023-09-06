@@ -1,14 +1,15 @@
 .slider {
     position: relative;
-    width: 80%;
-    margin: auto;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .myslide {
     height: auto;
     display: none;
     overflow: hidden;
-    margin-top: 6%;
+    margin-top: 8%;
+    margin-bottom: -15%;
     border-radius: 2%;
 }
 
