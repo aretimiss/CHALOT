@@ -510,6 +510,7 @@ img {
   font-size: var(--biggest-font-size);
   color: var(--first-color);
   margin-bottom: var(--mb-1);
+  margin-top: 40%;
 }
 
 .home__subtitle {
