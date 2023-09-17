@@ -10,7 +10,7 @@
   --title-color: #DFA878;
   --text-color: #707070;
   --text-color-light: #A6A6A6;
-  --body-color: #94A684;
+  --body-color: linear-gradient(90deg, #faf0cd, #fab397);
   --container-color: #FFF0F5;
 
 
