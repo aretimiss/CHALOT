@@ -1,16 +1,13 @@
 .slider {
     position: relative;
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
 }
 
 .myslide {
     height: auto;
     display: none;
     overflow: hidden;
-    margin-top: 8%;
-    margin-bottom: -25%;
-    border-radius: 2%;
+    margin-top: 5%;
 }
 
 .prev,
@@ -18,7 +15,7 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    font-size: 50px;
+    font-size: 25px;
     padding: 15px;
     cursor: pointer;
     color: #fff;
