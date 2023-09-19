@@ -10,7 +10,7 @@
   --title-color: #DFA878;
   --text-color: #707070;
   --text-color-light: #A6A6A6;
-  --body-color: #FFD1DA;
+  --body-color: linear-gradient(90deg, #faf0cd, #fab397);
   --container-color: #FFF0F5;
 
 
@@ -86,7 +86,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background: linear-gradient(90deg, #faf0cd, #fab397);
+  background: var(--body-color);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -151,14 +151,13 @@ img {
 }
 
 .l-header {
-  width: 80%;
+  width: 100%;
   position: fixed;
   top: 0;
-  left: 10%;
+  left: 0;
   z-index: var(--z-fixed);
-  background: linear-gradient(90deg, #fab397, #faf0cd);
+  background: var(--body-color);
   border-radius: var(--text-color);
-  border-radius: 0 0 10px 10px;
 }
 
 

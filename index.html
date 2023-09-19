@@ -79,16 +79,16 @@
                 <img src="img/1.jpg" alt="" class="menu__img">
                 <h3 class="menu__name">ชาเย็น</h3>
                 <span class="menu__detail">หวานหอม ละมุนชื่นใจ สดชื่น อร่อยเข้มข้น หอมชาหอมนม</span>
-                <span class="menu__preci">60 บาท</span>
+                <span class="menu__preci">30 บาท</span>
                 <a href="https://shop.line.me/@578eolnj/product/1005194456" target="_blank"
                     class="button menu__button"><i class='bx bx-cart-alt'></i></a>
             </div>
 
             <div class="menu__content">
                 <img src="img/2.jpg" alt="" class="menu__img">
-                <h3 class="menu__name">ชานมชมพู</h3>
+                <h3 class="menu__name">นมชมพู</h3>
                 <span class="menu__detail">อร่อย หวาน หอม ละมุน เย็นชื่นใจ สดชื่น และราคาไม่แพง</span>
-                <span class="menu__preci">60 บาท</span>
+                <span class="menu__preci">30 บาท</span>
                 <a href="https://shop.line.me/@578eolnj/product/1005194469" target="_blank"
                     class="button menu__button"><i class='bx bx-cart-alt'></i></a>
             </div>
@@ -97,7 +97,15 @@
                 <img src="img/4.jpg" alt="" class="menu__img">
                 <h3 class="menu__name">กาแฟนม</h3>
                 <span class="menu__detail">หวาน หอม ละมุน เข้มข้น สดชื่น หอมกาแฟหอมนมหอมมัน</span>
-                <span class="menu__preci">60 บาท</span>
+                <span class="menu__preci">30 บาท</span>
+                <a href="https://shop.line.me/@578eolnj/product/1005194487" target="_blank"
+                    class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+            <div class="menu__content">
+                <img src="img/4.jpg" alt="" class="menu__img">
+                <h3 class="menu__name">กาแฟนม</h3>
+                <span class="menu__detail">หวาน หอม ละมุน เข้มข้น สดชื่น หอมกาแฟหอมนมหอมมัน</span>
+                <span class="menu__preci">30 บาท</span>
                 <a href="https://shop.line.me/@578eolnj/product/1005194487" target="_blank"
                     class="button menu__button"><i class='bx bx-cart-alt'></i></a>
             </div>
@@ -259,5 +267,34 @@
     <script src="js/slide.js"></script>
 
 </body>
+<!-- Messenger ปลั๊กอินแชท Code -->
+<div id="fb-root"></div>
 
+<!-- Your ปลั๊กอินแชท code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "103623722767833");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v18.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/th_TH/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 </html>
