@@ -633,7 +633,7 @@ img {
 }
 
 .home__img {
-  width: 300px;
+  width: 280px;
   justify-self: center;
 }
 
@@ -663,6 +663,9 @@ img {
   width: 280px;
   border-radius: .5rem;
   justify-self: center;
+  background-color: white;
+  padding: 10px;
+  margin: 50px;
 }
 
 
